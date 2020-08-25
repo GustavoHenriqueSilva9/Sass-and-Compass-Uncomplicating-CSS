@@ -1,0 +1,4 @@
+arquivos.scss
+
+sass 'arquivo que quero compilar':'Arquivo .css'
+sass --watch 'arquivo que quero compilar':'Arquivo .css'
