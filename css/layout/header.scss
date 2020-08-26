@@ -6,7 +6,7 @@ header {
     width: 100%;
     position: absolute;
 
-    @media (max-width: $ponto-de-quebra){
+    @media #{$mq-mobile} {
         height: auto;
         h1{
             max-width: 50%;
@@ -22,7 +22,7 @@ header {
 
 header .container {
     position: relative;
-    @media (max-width: $ponto-de-quebra){
+    @media #{$mq-mobile}{
         position: static; 
     }
 }
@@ -33,6 +33,14 @@ header .container {
     top: -.5em;
     font-size: 1.2em;
     font-weight: lighter;
+
+        @media #{$mq-mobile}{
+        position: static;
+        display: block;
+        text-align: center;
+
+        } 
+
     ul {
         padding-left: 0;
     }

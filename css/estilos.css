@@ -606,6 +606,11 @@ header .container {
   top: -.5em;
   font-size: 1.2em;
   font-weight: lighter; }
+  @media (max-width: 980px) {
+    .menu-principal {
+      position: static;
+      display: block;
+      text-align: center; } }
   .menu-principal ul {
     padding-left: 0; }
   .menu-principal li {
@@ -729,20 +734,20 @@ header .container {
   background-image: url(../imagens/logo-blackberry.png); }
 
 @media (max-width: 980px) {
-  .menu-opcoes {
+  .menu-principal {
     position: static;
     display: block;
     text-align: center; }
 
-  .menu-opcoes li {
+  .menu-principal li {
     margin: .4em; }
 
   .destaque {
     font-size: 14px;
     height: 250px; }
 
-  .menu-opcoes,
-  .menu-opcoes li,
+  .menu-principal,
+  .menu-principal li,
   .post-destaque,
   .posts-antigos,
   form {

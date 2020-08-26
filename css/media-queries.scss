@@ -1,11 +1,10 @@
 @media (max-width: $ponto-de-quebra) {
-	.menu-opcoes {
-		position: static;
-		display: block;
-		text-align: center;
+
+	.menu-principal {
+
 	}
 
-	.menu-opcoes li {
+	.menu-principal li {
 		margin: .4em;
 	}
 
@@ -14,8 +13,8 @@
 		height: 250px;
 	}
 
-	.menu-opcoes,
-	.menu-opcoes li,
+	.menu-principal,
+	.menu-principal li,
 	.post-destaque,
 	.posts-antigos,
 	form {
